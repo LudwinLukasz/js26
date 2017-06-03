@@ -11,7 +11,7 @@ var inputElem = document.getElementById('js-inputValue'),
   checkOnclickEvent('image was clicked');
 });
 
-inputElem.addEventListener('keypress', function(e) {
+inputElem.addEventListener('keyup', function(e) {
   e.target.value += ' test ';
 });
 
